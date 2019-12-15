@@ -1,4 +1,4 @@
-#批量pip更新过期库
+#批量pip更新过期库20191215
 
 import pip
 from subprocess import call
