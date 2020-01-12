@@ -7,9 +7,6 @@ def multipli_table():
             else:
                 pass
         print('')
-<<<<<<< HEAD
 
 
 multipli_table()
-=======
->>>>>>> origin/master
