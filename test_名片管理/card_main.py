@@ -1,3 +1,5 @@
+# ！ /usr/bin/python3
+
 import card_tools
 
 while True:
@@ -17,7 +19,7 @@ while True:
             card_tools.show_all()
         # 查询名片
         elif action_str == '3':
-            card_tools.search_card
+            card_tools.search_card()
     # 0 退出系统
     elif action_str == '0':
         print('欢迎再次使用【名片管理系统】')
