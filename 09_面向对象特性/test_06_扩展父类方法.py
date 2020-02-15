@@ -33,6 +33,8 @@ class XiaoTianQuan(Dog):
         print('叫的跟神一样。。。')
         # 2.使用 super(). 调用原本在父类中封装的方法
         super().bark()
+        # 父类名.方法(self)
+        Dog.bark(self)
         # 3.增加其他子类的代码
         print('!@#$%^&*')
 
